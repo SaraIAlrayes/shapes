@@ -1,0 +1,63 @@
+/* Colors:
+  #f4f0ec
+  #faf9f7
+  #ffffff
+*/
+
+body {
+  background-color: #f4f0ec;
+}
+
+.shape {
+  margin: 3rem auto;
+  background-color: #faf9f7;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .15);
+}
+
+.shape-1 {
+    height: 7rem;
+    width: 12rem;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.shape-2 {
+    height: 7rem;
+    width: 12rem;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.shape-3 {
+    height: 7rem;
+    width: 12rem;
+    border-radius: 0 45px 45px;
+}
+
+.shape-4 {
+    height: 7rem;
+    width: 12rem;
+    border-radius: 20px 60px 10px 40px;
+}
+
+.shape-5 {
+    height: 7rem;
+    width: 12rem;
+    border-radius: 60px 60px 0px 0px;
+    /* border-radius: 160px 60px 160px 60px / 150px 150px 150px 150px */
+}
+
+.shape-6 {
+    height: 7rem;
+    width: 12rem;
+    border-radius: 60px;
+    /* border-radius: 160px 60px 160px 60px / 150px 150px 150px 150px */
+}
+
+.shape-7 {
+    height: 7rem;
+    width: 12rem;
+    border-radius: 160px 60px 160px 60px / 150px 150px 150px 150px
+}
